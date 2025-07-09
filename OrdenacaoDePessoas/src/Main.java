@@ -6,7 +6,6 @@ public class Main {
         pessoasOrdenadas.adicionarPessoa("Leticia",23,1.58);
         pessoasOrdenadas.adicionarPessoa("Ana",24,1.59);
         pessoasOrdenadas.adicionarPessoa("Duda",20,1.70);
-
         System.out.println("Pessoas Por Altura");
         System.out.println();
         pessoasOrdenadas.ordenarPorAltura().forEach(System.out::println);
