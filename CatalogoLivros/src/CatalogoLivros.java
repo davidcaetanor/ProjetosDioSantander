@@ -51,13 +51,12 @@ public class CatalogoLivros {
         return livrosPorIntervaloAnos;
     }
 
-    public Livro pesquisarPorTitulo(String titulo) {
-        Livro livroPorTitulo = null;
+    public List<Livro> pesquisarPorTitulo(String titulo) {
+        List <Livro> livroPorTitulo = new ArrayList<>();
         if (!livrosList.isEmpty()) {
             for (Livro l : livrosList) {
                 if (l.getTitulo().equalsIgnoreCase(titulo)) {
-                    livroPorTitulo = l;
-                    break;
+                    livroPorTitulo.add(l);
                 }
             }
         }
@@ -66,29 +65,24 @@ public class CatalogoLivros {
 
     public void removerLivro(String titulo, String autor){
         Livro tituloASerRemovido = null;
+        boolean livroExiste = false;
         if (!livrosList.isEmpty()){
             for (Livro l: livrosList){
                 if (l.getTitulo().equalsIgnoreCase(titulo) && l.getAutor().equalsIgnoreCase(autor)){
                     tituloASerRemovido = l;
+                    livroExiste = true;
+                    break;
                 }
             }
         } else {
              System.out.println("A lista esta vazia");
         }
-        livrosList.remove(tituloASerRemovido);
-    }
-
-    public void menu() {
-        System.out.printf("""
-                Menu de Catalogos
-                1 - Adicionar Livro
-                2 - Pesquisar Livro Por Autor
-                3 - Pesquisar Livro Por Intervalo de Lançamento
-                4 - Pesquisar Livro Por Titulo
-                5 - Remover livro do Catalogo
-                6 - Encerrar o Programa
-
-                Digite a opçao:
-                """);
+        if (livroExiste){
+            livrosList.remove(tituloASerRemovido);
+            System.out.println(tituloASerRemovido);
+            System.out.println("Removido com sucesso!");
+        }else {
+            System.out.println("O Livro nao existe no catalogo!");
+        };
     }
 }
