@@ -9,29 +9,39 @@ public class SomaNumeros {
         this.numerosInteirosList = new ArrayList<>();
     }
 
-    public void adicionarNumero(int numeroADD){
+    public void adicionarNumero(int numeroADD) {
         numerosInteirosList.add(numeroADD);
     }
 
-    public int calcularSoma(){
+    public int calcularSoma() {
         int resultado = 0;
-        if (!numerosInteirosList.isEmpty()){
-            for (Integer n: numerosInteirosList){
+        if (!numerosInteirosList.isEmpty()) {
+            for (Integer n : numerosInteirosList) {
                 resultado += n;
             }
         }
         return resultado;
     }
 
-    public int encontrarMaiorNumero(){
+    public void ordemNumerosAscendente() {
+        Collections.sort(numerosInteirosList);
+    }
+
+    public void ordemNumerosDescendentes() {
+        Collections.sort(numerosInteirosList, Collections.reverseOrder());
+//        numerosInteirosList.sort(Collections.reverseOrder())  Funçao atual
+    }
+
+    public int encontrarMaiorNumero() {
         return Collections.max(numerosInteirosList);
     }
-    public int encontrarMenorNumero(){
+
+    public int encontrarMenorNumero() {
         return Collections.min(numerosInteirosList);
     }
 
-    public void exibirNumeros(){
-       numerosInteirosList.forEach(System.out::println);
+    public void exibirNumeros() {
+        numerosInteirosList.forEach(System.out::println);
     }
 
     @Override
