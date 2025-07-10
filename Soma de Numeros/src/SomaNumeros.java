@@ -24,11 +24,11 @@ public class SomaNumeros {
     }
 
     public void ordemNumerosAscendente() {
-        Collections.sort(numerosInteirosList);
+        Collections.sort(numerosInteirosList); // Ordem Natural pelo Comparable
     }
 
     public void ordemNumerosDescendentes() {
-        Collections.sort(numerosInteirosList, Collections.reverseOrder());
+        Collections.sort(numerosInteirosList, Collections.reverseOrder()); // Ordem reversa
 //        numerosInteirosList.sort(Collections.reverseOrder())  Funçao atual
     }
 
