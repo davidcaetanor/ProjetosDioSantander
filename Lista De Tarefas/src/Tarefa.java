@@ -38,9 +38,17 @@ public class Tarefa {
         this.concluida = concluida;
     }
 
+    public String getTituloTarefa() {
+        return tituloTarefa;
+    }
+
+    public void setTituloTarefa(String tituloTarefa) {
+        this.tituloTarefa = tituloTarefa;
+    }
+
     @Override
     public String toString() {
-        return "Titulo da Tarefa: " + tituloTarefa + "\nDescricao da Tarefa: " + descricao + "\nConcluida: " + concluida;
+        return "Titulo da Tarefa: " + tituloTarefa + "\nDescricao da Tarefa: " + descricao + "\nConcluida: " + concluida + "\n";
     }
 
 }
