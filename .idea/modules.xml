@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collections/Set/Agenda-de-Contatos/Agenda-de-Contatos.iml" filepath="$PROJECT_DIR$/Collections/Set/Agenda-de-Contatos/Agenda-de-Contatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Set/Cadastro-de-Produtos/Cadastro-de-Produtos.iml" filepath="$PROJECT_DIR$/Collections/Set/Cadastro-de-Produtos/Cadastro-de-Produtos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/List/CarrinhoDeCompras/CarrinhoDeCompras.iml" filepath="$PROJECT_DIR$/Collections/List/CarrinhoDeCompras/CarrinhoDeCompras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/List/CatalogoLivros/CatalogoLivros.iml" filepath="$PROJECT_DIR$/Collections/List/CatalogoLivros/CatalogoLivros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Set/Conjunto-de-Convidados/Conjunto-de-Convidados.iml" filepath="$PROJECT_DIR$/Collections/Set/Conjunto-de-Convidados/Conjunto-de-Convidados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estoque-Produtos-Preco/Estoque-Produtos-Preco.iml" filepath="$PROJECT_DIR$/Estoque-Produtos-Preco/Estoque-Produtos-Preco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estrutura Condicional If else e else if/Estrutura Condicional If else e else if.iml" filepath="$PROJECT_DIR$/Estrutura Condicional If else e else if/Estrutura Condicional If else e else if.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Set/Gerenciador -de-Alunos/Gerenciador -de-Alunos.iml" filepath="$PROJECT_DIR$/Collections/Set/Gerenciador -de-Alunos/Gerenciador -de-Alunos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Set/Hash-Palavras-Unicas/Hash-Palavras-Unicas.iml" filepath="$PROJECT_DIR$/Collections/Set/Hash-Palavras-Unicas/Hash-Palavras-Unicas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfacesFuncionais/InterfacesFuncionais.iml" filepath="$PROJECT_DIR$/InterfacesFuncionais/InterfacesFuncionais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/List/KmRodados/KmRodados.iml" filepath="$PROJECT_DIR$/Collections/List/KmRodados/KmRodados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Set/Lista-De-Tarefas/Lista-De-Tarefas.iml" filepath="$PROJECT_DIR$/Collections/Set/Lista-De-Tarefas/Lista-De-Tarefas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/List/ListaTarefas/ListaTarefas.iml" filepath="$PROJECT_DIR$/Collections/List/ListaTarefas/ListaTarefas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Map/Map.iml" filepath="$PROJECT_DIR$/Collections/Map/Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/List/OrdenacaoDePessoas/OrdenacaoDePessoas.iml" filepath="$PROJECT_DIR$/Collections/List/OrdenacaoDePessoas/OrdenacaoDePessoas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectMusic/ProjectMusic.iml" filepath="$PROJECT_DIR$/ProjectMusic/ProjectMusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetoKeyWords/ProjetoKeyWords.iml" filepath="$PROJECT_DIR$/ProjetoKeyWords/ProjetoKeyWords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProjetosDioSantander.iml" filepath="$PROJECT_DIR$/.idea/ProjetosDioSantander.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecordsBalbla/RecordsBalbla.iml" filepath="$PROJECT_DIR$/RecordsBalbla/RecordsBalbla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/List/Soma de Numeros/Soma de Numeros.iml" filepath="$PROJECT_DIR$/Collections/List/Soma de Numeros/Soma de Numeros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TratandoErrorsExceptions/TratandoErrorsExceptions.iml" filepath="$PROJECT_DIR$/TratandoErrorsExceptions/TratandoErrorsExceptions.iml" />
+    </modules>
+  </component>
+</project>
